@@ -38,9 +38,12 @@ When manually applied to a loop, specifies the total number of iterations perfor
 
 ## Outputs:
 After running co simulation, the output observed is:
+
 ![image](https://github.com/user-attachments/assets/e491920e-5f3e-4a81-9b68-d260837647cd)
 
 After running synthesis, the summary observed is:
+
 ![image](https://github.com/user-attachments/assets/22dab91e-0d69-4a30-a2e5-ae156371deba)
+
 Clock period = 10 ns
 No setup or hold violations observed
