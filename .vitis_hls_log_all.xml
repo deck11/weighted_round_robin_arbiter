@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vivadoHLSLog:LogRoot xmlns:vivadoHLSLog="www.xilinx.com/vivadoHLSLog">
+  <errorLogs>
+    <logs>
+      <synLog/>
+      <simLog/>
+      <mgLog/>
+      <packageLog/>
+      <csimLog/>
+    </logs>
+  </errorLogs>
+  <warningLogs>
+    <logs>
+      <synLog/>
+      <simLog>
+        <logs message="WARNING: [HLS 200-616] This design uses AXI slave interface in dataflow mode, which can result in simulation dead-lock and/or mismatching results (due to AXI slave FIFO sizing)." projectName="weighted_round_robin" solutionName="solution1" date="2024-09-28T16:00:13.521+0530" type="Warning"/>
+        <logs message="WARNING: [HLS 200-484] The 'set_directive_top -location' command is deprecated and will be removed in a future release." projectName="weighted_round_robin" solutionName="solution1" date="2024-09-28T16:00:04.190+0530" type="Warning"/>
+        <logs message="WARNING: [HLS 200-484] The 'set_directive_top -name' command is deprecated and will be removed in a future release." projectName="weighted_round_robin" solutionName="solution1" date="2024-09-28T16:00:04.178+0530" type="Warning"/>
+        <logs message="WARNING: [HLS 200-2053] The vitis_hls executable is deprecated. Consider using vitis-run --mode hls --tcl&#xD;&#xA;Sourcing Tcl script 'C:/Users/deekshu/Documents/verilog/weighted_round_robin/solution1/cosim.tcl'" projectName="weighted_round_robin" solutionName="solution1" date="2024-09-28T16:00:02.217+0530" type="Warning"/>
+      </simLog>
+      <mgLog/>
+      <packageLog/>
+      <csimLog/>
+    </logs>
+  </warningLogs>
+</vivadoHLSLog:LogRoot>
