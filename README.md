@@ -15,6 +15,7 @@ The weights determine the number of cycles each process is given access to the b
 ## Pragmas
 
 In ```wrr.c``` I have used pragmas. A few of them are:
+
 1.```#pragma HLS INTERFACE m_axi port=req offset=slave
 	#pragma HLS INTERFACE m_axi port=weight offset=slave
 	#pragma HLS INTERFACE m_axi port=grant offset=slave```
@@ -46,4 +47,5 @@ After running synthesis, the summary observed is:
 ![image](https://github.com/user-attachments/assets/22dab91e-0d69-4a30-a2e5-ae156371deba)
 
 Clock period = 10 ns
+
 No setup or hold violations observed
